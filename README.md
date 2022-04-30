@@ -10,4 +10,8 @@
 ```
 git checkout -b <branch_name>
 ```
+* How to push branch to remote repository
 
+```
+    git push git@github.com:YoungKim11/50-HTML-CSS-JavaScript-Projects.git
+```
