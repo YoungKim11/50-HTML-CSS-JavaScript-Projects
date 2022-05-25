@@ -1,0 +1,108 @@
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/wallhaven-0q2jwr.jpeg);
+  background-size: 100% 100%;
+  color: rgb(255, 222, 0);
+  font-family: 'Pokemon Solid', sans-serif;
+  text-shadow: -2px 2px 0 #3B4CCA,
+  2px 2px #3B4CCA,
+  2px -1px #3B4CCA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container{
+  background:rgba(0, 0, 0, 0.7);
+  padding: 30px 40px;
+}
+.container h1 {
+  letter-spacing: .2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: -2px 2px 0 #3B4CCA,
+  2px 2px #3B4CCA,
+  2px -1px #3B4CCA,
+  -1px -5px #3B4CCA;
+}
+
+.container a {
+  text-shadow: none;
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  font-family: inherit;
+  color:rgb(255, 222, 0);
+  text-shadow: -2px 2px 0 #3B4CCA,
+  2px 2px #3B4CCA,
+  2px -1px #3B4CCA;
+  background: #CC0000;
+  padding: 15px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.btn:active {
+transform: scale(0.98);
+}
+
+.text {
+  margin-top: 30px;
+}
+.form-control {
+  position: relative;
+  margin-bottom: 20px 0 40px;
+  width: 300px;
+  padding: 25px  0 30px;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #FF0000 solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: #3B4CCA;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: #FF0000;
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+
+.form-control label span {
+  display: inline-block;
+  letter-spacing: .2rem;
+  font-size: 20px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.form-control input:focus + label span, 
+.form-control input:valid + label span {
+  color: #FF0000;
+  transform: translateY(-30px);
+}
