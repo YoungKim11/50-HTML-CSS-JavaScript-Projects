@@ -1,7 +1,6 @@
 const pokedexContainer = document.getElementById('pokedex-container')
 const pokemonCount = 150
 const colors = {
-
     fire: '#FDDFDF',
     grass: '#DEFDE0',
     electric: '#FCF7DE',
